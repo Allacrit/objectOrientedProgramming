@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 class Library implements Information, Management, Reading, Searching, Use {
-    private ArrayList<Book> catalog;
+    private final ArrayList<Book> catalog;
 
     public Library() {
         catalog = new ArrayList<>();
